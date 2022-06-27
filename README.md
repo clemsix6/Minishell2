@@ -18,7 +18,7 @@ Vous trouverez ci-dessous les fonctionnalités supplémentaires qu'embarque le M
 
 ### Pipe
 
-L'implémentation des pipes était la tâche la plus complexe du projet. Un pipe permet de faire communiquer deux processus entre eux de manière asynchrome. Une bonne maitrise des pipes était donc essentielle afin de pouvoir les implémenter proprement, de plus la possibilité qu'il puisses y avoir plusieurs pipes dans une seule commande était un véritable défis.
+L'implémentation des pipes était la tâche la plus complexe du projet. Un pipe permet de faire communiquer deux processus entre eux de manière asynchrome. Une bonne maîtrise des pipes était donc essentielle afin de pouvoir les implémenter proprement, de plus la possibilité qu'il puisses y avoir plusieurs pipes dans une seule commande était un véritable défis.
 
 
 
