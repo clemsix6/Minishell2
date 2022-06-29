@@ -10,7 +10,7 @@ Le Minishell2 est la continuité du module Shell Programming, c'est une version 
 
 Vous trouverez ci-dessous les fonctionnalités supplémentaires qu'embarque le Minishell2 en plus des fonctionnalités du Minishell1:
 
-* Gestion de l'opérateur ";" qui permet de séparer différentes commandes pour les executer à la suite.
+* Gestion de l'opérateur ";" qui permet de séparer différentes commandes pour les exécuter à la suite.
 * Gestion de l'opérateur "|" qui permet de rediriger la sortie standard d'une commande vers l'entrée standard de la suivante.
 * Gestion des opérateurs "<" "<<" ">>" ">" qui permettent de rediriger l'entrée ou la sortie standard d'une application vers un fichier
 
@@ -18,13 +18,13 @@ Vous trouverez ci-dessous les fonctionnalités supplémentaires qu'embarque le M
 
 ### Pipe
 
-L'implémentation des pipes était la tâche la plus complexe du projet. Un pipe permet de faire communiquer deux processus entre eux de manière asynchrome. Une bonne maîtrise des pipes était donc essentielle afin de pouvoir les implémenter proprement, de plus la possibilité qu'il puisses y avoir plusieurs pipes dans une seule commande était un véritable défis.
+implémentation des pipes était la tâche la plus complexe du projet. Un pipe permet de faire communiquer deux processus entre eux de manière asynchrone. Une bonne maîtrise des pipes était donc essentielle afin de pouvoir les implémenter proprement, de plus, la possibilité qu'il puisse y avoir plusieurs pipes dans une seule commande était un véritable défi.
 
 
 
 ### Exemples
 
-Vous trouverez ci-dessous quelques exemple d'utilisation du Minishell2:
+Vous trouverez ci-dessous quelques exemples d'utilisation du Minishell2:
 
 ```
 ∼/B-PSU-210> ./mysh
